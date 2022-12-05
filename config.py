@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 if os.path.exists("local.env"):
     load_dotenv("local.env")
 que = {}
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5565653587").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5386704284").split()))
 API_ID = int(getenv("API_ID", "23534271"))
 API_HASH = getenv("API_HASH", "be4e91de58529a1b199b6d6515f2005e")
 LOG_CHAT = int(getenv("LOG_CHAT", "777000"))
@@ -14,7 +14,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "")
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "")
 SPOTIFY_USERNAME = getenv("SPOTIFY_USERNAME", "")
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
-ALIVE_IMG = getenv("ALIVE_IMG", "https://te.legra.ph/file/f34e23eee8d7b4b7457bf.jpg")
+ALIVE_IMG = getenv("ALIVE_IMG", "https://te.legra.ph/file/038cfdb12f907f2f260ba.jpg")
 DB_URL = getenv("DATABASE_URL", "")
 STRING_SESSION1 = getenv("STRING_SESSION1", "AQC3E6RxzwDOye52gSIQhWzIHUrk-NObeUxHlPHr5FvmigCPrbjdcI0OTiL74jnYbIJtmDjXAxW9WcMcfyo6fbgFvxJjn6aMMmYgGL-iFTYXTM3N17_KThLZ2E3WxMWl_9QGyP05Ey_c3MfHb1aFuyt4JYZeG4VEYU8sGdWlpCGGmgw8jj_Euj2A2g9InUTaxyQ7aYopiCPW_L8iD-u1_0CcsR-JrA5zML3lXq5S0z3ocsCzGU5LAyLuOYWuIv3tIKR3itYJK-Mhd85gxf--eRQ7_g5vxBcbfXiuequ_vLeGmhtJkR0I0-1AK8lMw3-0VZSYidkW-MQTxbWdluSmN_FuAAAAAUu9IlMA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
